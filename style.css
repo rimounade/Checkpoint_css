@@ -1,0 +1,200 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #dddddd3b;
+}
+/* changement taille de texte, suprimer  l'underline, la couleur et la position de la navbar */
+div a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.301);
+    font-weight: bold;
+    margin-right: 22px;
+}
+/* changement lors de cibler la navbar par le curseur */
+div a:hover{
+    color: rgba(206, 143, 206, 0.705);
+    text-decoration: underline;
+    font-size: 30px; 
+
+
+}
+/* le backgroung de la navbar et sa position */
+div {
+    background-color: rgb(182 215 243 / 21%);
+    text-align: center;
+}
+/* la position, couleur, underline des titres h1*/
+h1 {
+    margin-left: 57px;
+    color: #2c4e4eb5;
+    text-decoration: underline;
+}
+
+/*action du curseur*/
+h1:hover {
+    color: rgba(216, 30, 61, 0.603);
+    text-decoration: underline;
+     font-size: 30px; 
+}
+/* les styles de l'image*/
+img{
+    width: 257px;
+    border-radius: 25px;
+    margin-left: 448px;
+    margin-top: -132px;
+}
+#home{
+    margin-top: 142px;
+    margin-bottom: 57px;
+
+}
+/*style des paragraphe p*/
+p{
+    font-size: 19px;
+    margin-left: 60px;
+    display: inline-block;
+    width: 60%;
+    line-height: 41px;
+    text-align: justify;
+}
+/*style des titres h3*/
+h2 {
+    margin-left: 59px;
+    font-style: italic;
+    font-size: larger;
+}
+article h2{
+    color: rgb(83 22 143 / 72%);
+}
+/*style des titres h2*/
+h3 {
+    margin-left: 59px;
+    font-style: italic;
+    font-size: 17px;
+}
+/*style des videos*/
+video {
+    margin-left: 200px;
+}
+iframe {
+    margin-left: 200px;
+    width: 500px;
+    margin-top:50px ;
+}
+/*style des liste*/
+li {
+    font-weight: bold;
+    color: #ed269d87;
+}
+ul li {
+    
+    color: #0c0c0c87;
+}
+/*les cercles et rectangles des listes unordred*/
+ul ::marker {
+    color: coral;
+}
+/*les style des liste detaillée*/
+dt {
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 57px;
+}
+dd {
+    font-style: normal;
+    
+    margin-left: 80px;
+    text-align: justify;
+}
+/*style tableau*/
+table{
+    width: 40%;
+    margin: auto;
+    border: 2;
+}
+table,td,th{
+    border: 4px solid rgba(32, 26, 44, 0.575);
+    border-collapse: collapse;
+}
+/*style formulaire*/
+
+form{
+    width: 100%;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    margin-left: 39px;
+    margin-bottom: 21px;
+}
+input[type="submit"]{
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(7, 141, 146, 0.623);
+    width: 251px;
+    margin-left: 34px;
+}
+input[type="submit"]:hover{
+    color:rgba(7, 141, 146, 0.623);
+    background-color: rgb(3, 3, 3);
+}
+b{
+    margin-bottom: 21px;
+} 
+#C{
+    white-space: 20px;
+}
+footer label {
+    margin-left: 175x;
+    
+}
+/*#mme{
+    margin-left: 20px;
+}
+#mlle{
+    margin-right: 20px;
+}
+#m{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}*/
+.title{
+    margin-left: 25px;
+   /* margin-right: 20px;*/
+   display: inline;
+}
+#prenom{
+    margin-left: 20px;
+}
+#email{
+    margin-left:38px;
+
+}
+#nom{
+    margin-left: 44px;
+
+}
+footer textarea{
+    margin-top: 39px;
+    text-align: center;
+    font-size: xxx-large;
+    margin-left: 21px;
+   border-radius: 12px;
+}
+footer label{
+    font-size: x-large;
+    
+}
+footer button{
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(7, 141, 146, 0.623);
+    width: 251px;
+}
+footer {
+    background-color: rgba(42, 119, 133, 0.67);
+    text-align: center;
+}

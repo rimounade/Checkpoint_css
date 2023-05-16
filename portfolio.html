@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nom de la page web-->
+    <title>Portfolio Personnel</title>
+    <!--icone de la page web-->    <!--?????????????????????????????????-->
+    <link rel="icon" href="/apercu-du-portfolio.png"/>
+    <link rel="stylesheet" href="style.css"/> 
+
+</head>
+<body>
+    <header>
+        <!--création de la navbar-->
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#blog">Blog</a>
+            <a href="#contacts">Contacts</a>
+            
+          </div>
+
+    </header>
+    <main>
+        <!-- creation de la section home-->
+        <section id="home">
+            <h1>Home</h1>
+            <p> 
+                Vous trouvez ici mon Portfolio Personnel.
+    
+            </p>
+            <!-- creation de d'une image-->
+        <img src="téléchargement.jpg" alt="Not Found">
+        
+        </section>
+        <!-- creation de la section Services-->
+        <section id="services">
+            <h1>Services:</h1>
+            <h2>Les services sont:</h2>
+            <h3>Pipeline de services</h3>
+            <p> Celui-ci contient des références à des services qui ne sont pas encore actifs. Ils peuvent être proposés ou en cours de développement. Il peut s'agir de nouveaux services ou de modifications de services existants, issus de la phase de stratégie et prêts pour la phase d'exploitation.</p>
+            <h3>Catalogue de services</h3>
+            <p>Celui-ci contient des liens vers des services actifs via leur package de conception de services</p>
+            <h3>Services à la retraite</h3>
+            <p>Services en cours d'arrêt, avant leur démantèlement définitif</p>
+        <!-- creation de la section Services-->
+            </section>
+        <section id="about">
+                <h1>About</h1>
+                <p>  Nom: Jon Donald
+                    <br>
+                    Age: 31 ans
+                    <br>
+                    diplome: Ingenieur en Informatique et multimedia
+                    <br>
+                    Institut: Institut superieure des sciences informatique
+                    
+
+
+                </p>
+                
+        </section>
+        <!-- creation de la section Skills-->
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <!-- creation d'une video existe en local'-->
+            <video controls muted width="500px">
+                <source src="/GOMYCODE toujours plus proche de vous!.mp4">
+                
+            </video>
+            <!-- creation d'une video youtube'-->
+            <iframe
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/zcTFG_F0FRs"
+        ></iframe>
+            
+
+            </p>
+            
+        </section>  
+        <!-- creation de la section Blog--> 
+        <section id="blog">
+            <article>
+            <h1>Blog</h1>
+            <h2> Modèle d'article de blog (format texte + illustrations)</h2>
+            <hr>
+            <p> Renseignez les sections ci-dessous pour créer un nouvel article de blog au format texte +
+                illustrations à partir d'une idée initiale. Copiez ensuite ce que vous avez mis en face de chaque
+                entrée en italique dans votre interface de blog.
+            </p>
+            <br>
+            <ol> 
+                <li>Sujet</li>
+                <hr>
+                <p>Indiquez ici de quoi vous allez parler. Inspirez-vous de l'idée mémorisée pour préciser votre pensée
+                    en quelques mots.
+                </p>
+                <dl> 
+                    <ul type="square">
+                        <li>Idée :</li>
+                        <li>Sujet de l'article :</li>
+                        <li>Titre possible :</li>
+                    </ul>
+                </dl>
+                <li>Intro</li>
+                <hr>
+                <p>
+                    Posez-vous ces 3 questions :
+                    <ul type="disc">
+                        <li>Idée :</li>
+                        <li>Sujet de l'article :</li>
+                        <li>Titre possible :</li>
+                    </ul>
+                </p>
+                <li>Argumentaire</li>
+                <hr>
+                <p>
+                    Présentez votre argumentaire en insistant sur le bénéfice que le lecteur peut tirer de cet article s'il
+le lit jusqu'au bout.
+                    <dl>
+                        <dt>Poser le problème :</dt>
+                        <dd>demandez un avis sur l'article</dd>
+                        <dt>Lister les solutions existantes :</dt>
+                        <dd>Utilisez autant de points que nécessaire, vous pouvez ensuite reprendre ce nombre dans le titre de
+                            l'article, par exemple « 7 conseils pour ... ».
+                        </dd>
+                        <dt>Montrer qu'elles sont applicables :</dt>
+                        <dd>Ne faites pas de demande directe de partage, de like ou autres +1. Incitez vos lecteurs à
+                            partager (l'article parce qu'il est bon)</dd>
+                    </dl>
+                </p>
+            </ol>
+
+        </article> 
+        </section>  
+        <!-- creation de la section Contact--> 
+        <section id="contacts">
+            <h1>Contact</h1>
+            <table>
+                <tr>
+                    <th>Num Telephone</th>
+                    <th>Adresse mail</th>
+                    <th>LinkedIn</th>
+                </tr>
+                <tr>
+                    <th>+216------</th>
+                    <th>pic@gmail.com</th>
+                    <th>Rim Arfa</th>
+                </tr>
+            </table>
+            
+            <!--FORMULAIRE-->
+    <form name="form1" method="post" action="">
+        
+        <label><b>Prenom</b></label>
+        <input id="prenom" type="text" name="prenom" />
+        <br>
+        <br>
+        <label><b>Nom</b></label>
+        <input id="nom" type="text" name="nom" />
+        <br>
+        <br>
+        <label><b id="C">civilite</b></label>
+        <input class="title" type="radio" name="civilite" value="Mme"  /> Madame 
+        <input class="title" type="radio" name="civilite" value="Mlle" />Mademoiselle 
+        <input class="title" type="radio" name="civilite" value="M" checked="checked"/> Monsieur
+        <br>
+        <br>
+        <label><b>Email</b></label>
+        <input id="email" type="email" name="email" />
+        <br>
+        <br>
+        <label><b>Abonnement</b></label>
+        <input id="abon" type="checkbox" name="abonnement" value="oui" />Abonnement à la newsletter
+        <br>
+        <br>
+        <label><b>Préférence</b></label>
+        <select name="select">
+            <option value="parmail" selected="selected"> Contactez-moi par email</option>
+            <option value="partel">Contactez-moi par téléphone</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="Submit" value="Envoyer" />
+        
+    </form>
+
+        </section>
+        <a href="#top">Top</a> 
+        <hr>
+        
+
+    </main>
+    <footer>
+        <label>Any comments?</label>
+        <br>
+                <textarea></textarea>
+                <br>
+                <br>
+                <button>Send</button>
+
+    </footer>
+    
+
+    
+</body>
+</html>
